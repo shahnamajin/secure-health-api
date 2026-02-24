@@ -23,7 +23,7 @@ def audit_log(action, pid):
         f.write(json.dumps(entry)+'\n')
  """
 def data_minimize(payload):
-    allowed = {k: payload[k] for k in ['id','name','dob','consent'] if k in payload}
+    allowed = {k: payloads[k] for k in ['id','name','dob','consent'] if k in payload}
     # allowed = {k: payload[k] for k in ['id','name','dob','consent'] if k in payload}
     return allowed
 
