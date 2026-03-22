@@ -50,8 +50,8 @@ secure-patient-records-api/
 ### 1. Clone and Install Dependencies
 
 ```bash
-git clone <repository-url>
-cd secure-patient-records-api
+git clone https://github.com/shahnamajin/secure-health-api.git
+cd secure-health-api
 npm install
 ```
 
